@@ -1,175 +1,278 @@
-html, body{
-	height: 100%;
+/*UTILITIES*/
+.mrgTop100 {
+    margin-top: 105px;
 }
 
-body{
-	margin: 0px;
-	padding: 0px;
+.pad0 {
+    padding: 0
 }
 
-.header{
-	background-color: white;
-	text-align: center;
+.mrg0 {
+    margin: 0;
+}
+.pad10-0{padding:10px 0; }
+.padBot15{padding-bottom:15px; }
+.pad15-0{padding:15px 0; }
+.pad20-0{padding:20px 0; }
+.pad30-0{padding:30px 0; }
+.pad30{padding:30px; }
+.pad50-0{padding:50px 0; }
+.special-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
-.logo{
-	width: 50%;
+nav.navbar.navbar-default.navbar-fixed-top {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    padding: 10px 0;
+    background-color: #fff;
+    border-color: #fff;
 }
 
-nav{
-	margin: 5%;
+.navbar-brand {
+    padding: 5px 15px;
 }
 
-nav a{
-	padding: 2%;
-	text-decoration: none;
-	color: grey;
-	font-weight: 700;
+.navbar-nav {
+    float: none !important;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 17px 0;
+}
+.navColor{
+    color: #a7c244!important;
+}
+.nav > li > a {
+    font-family: 'OpenSans';
+    font-size: 16px;
 }
 
-nav a:hover{
-	text-decoration: none;
-	color: green;
-	font-weight: 700;
+a.slash:after {
+    content: '|';
+    padding-left: 20px;
 }
 
-.heroImg{
-	background: url("../img/semilla.jpg") center;
-	background-size: cover;
-	height: 50%;
-	
+.heroimg {
+    background: url("../img/heroimg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vw / 1350 * 330);
 }
 
-.frase{
-	padding: 5%;
-	text-align: center;
+.phrase {
+    background-color: #e9e9e9;
+    padding: 70px;
+    text-align: center;
 }
 
-.misionVision{
-	background-color: white;
-	text-align: center;
-}
+.phrase p {
+    font-family: 'OpenSans-Light';
 
-.metodologiaImg{
-	width: 100%;	
+    max-width: 1000px;
+    display: block;
+    margin: auto;
 }
-
-.metodologiaTxt{
-	background: url("../img/fondo.jpg");
-	background-position: center;
-	text-align: center;
-	color: white;		
+.MissionVision h3{
+    font-family: 'OpenSans-Bold';
 }
-
-.imgMetodo{
-	padding-top: 15%;
+.MissionVision p{
+    font-family: 'OpenSans';
 }
-.rowTable {
-  display: table;
- }
-
-.rowTable .col-sm-6 {
-  display: table-cell;
-  float: none;
-  vertical-align: top;
-  margin: 0px;
+.methodology{
+    color: #fff;
 }
+.methodology h4{
+    padding:30px 0;
+    font-family: 'OpenSans-light';
+    font-weight: 900;
+}
+.methodology p{
+    font-family: 'OpenSans-Light';
+    max-width: 550px;
+}
+.imagenFondo{
+    background: url("../img/metodo.JPG")no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 54vh;
+}
+.Fondo{
+    background: url("../img/fondo.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 54vh;
+}
+.container-display{
+    display: block;
+    width: 100%;
+}
+.services{
 
-.sinpadding [class*="col-"] {
+}
+.services .box-item h3{
+    font-family: 'OpenSans-Bold';
+}
+.services .box-item p{
+    max-width: 850px;
+    font-family: 'OpenSans';
+    display: block;
+    margin: auto;
+}
+.services .item-text{
+    font-family: 'OpenSans';
+    padding: 0 15px;
+}
+.item-text p{
+    /*padding: 12px 0;*/
+}
+.item-text h4 {
+    min-height: 37px;
+    font-family: 'OpenSans-Semibold';
+    color: #5e8039;
+}
+.projects {
+    background-color: #5E8039;
+    padding: 50px 0;
+    color: #fff;
+    font-family: 'OpenSans-Light';
+    font-weight: 900;
+}
+.projects h3{
+    font-family: 'OpenSans-Bold';
+    margin-left: 13px;
+}
+.socialMedia a img {
+    width: 100%;
+    margin: auto 2px;
+    max-width: 7%;
+}
+.workTeam{
+    padding: 50px 0;
+}
+.workTeam h3{
+    font-family: 'OpenSans-Bold';
+    margin-left: 13px;
+    color: #5e8039;
+}
+.teamItem{
+    padding: 15px 50px;
+    font-family: 'OpenSans';
+}
+.teamItem h4, .teamItem h5{
+    font-weight: 900;
+}
+.Blog{
+    font-family: 'OpenSans-Light';
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    color: #000;
+    font-weight: 900;
+}
+.Blog h3 {
+    font-family: 'OpenSans-Bold';
+    margin-left: 32px!important;
+    margin-bottom: -40px;
     padding: 0;
 }
-
-.sinmargin [class*="row"]{
-	margin-right: 0px !important;
+.carousel-container .container{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.SocialMediaSeccion{
+    font-family: 'OpenSans-Light';
+    font-size: 20px;
+    color: #fff;
+    padding:50px;
+    background-color: #4D4D4D;
+}
+.SocialMediaSeccion .col-sm-3 {
+    border: 1px solid #fff;
+    height: 200px;
+}
+.SocialMediaSeccion .col-sm-3:hover {
+    background-color:#5E8039;
+    transition: background-color 2s;
+}
+.SocialMediaSeccion .special-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    color: #000;
+    font-weight: 900;
+    padding:30px 0;
+    font-family: 'OpenSans-Light';
+}
+.footerTextLeft{
+    float: left;
+}
+.footerTextRight{
+    float: right;
+    text-align: right;
+}
+.footerTextLeft span {
+    color: #FFBF00;
+}
+.footerTextRight span {
+    color: grey;
 }
 
-.servicios{
-	text-align: center;
-	font-size: 1em;
-}
 
-.p3{
-	padding: 3% 0% 3% 0%;
-}
-
-.proyectos{
-	text-align: center;
-	color: white;
-	vertical-align: top;
-}
-
-.proyectos img{
-	width: 70%
-}
-
-.equipo{
-	text-align: center;
-}
-
-.equipo .img-circle{
-	width: 50%;
-}
-
-.equipo .icono{
-	width: 7%;
-}
-
-.equipo .icono:hover{
-	border: 2px solid green;
-	border-radius: 9px;
-}
-
-.blog{
-	background: url("../img/fondo2.jpg");
-	background-size: cover;
-	text-align: center;
-}
-
-.blog img{
-	width: 70%;
-}
-
-.redesSociales{
-	color: white;
-}
-
-.redesSociales p{
-	padding-bottom: 60%; 
-}
-
-.redesSociales .hidden-xs img{
-	width: 10%;
-	margin-left: 80%;
-}
-
-.redesSociales .visible-xs img{
-	width: 10%;
-}
-
-.redesSociales [class*="col-sm"]{
-	border: 1px solid white;
-	padding: 2%;
-}
-
-.verde{
-	transition: background-color 2s;
-}
-
-.verde:hover{
-	background-color: #5E8039;
-}
-
-footer p>span{
-	color: #FFBF00;
-}
-
-footer div>span{
-	color: grey;
-}
-
-@media all and (max-width: 767px) and (min-width: 320px) {
-    .reducir{
-        width: 20%;
+@media all and (max-width: 767px){
+    .heroimg{
+        height: 25vh;
+    }
+    .navbar-toggle {
+        position: relative;
+        top: 20px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #a7c244;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #a7c244;
+    }
+    #carouselblog .l-arrow, .r-arrow {
+        position: relative;
+        padding: 0;
+        top: 135px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    nav.navbar.navbar-default.navbar-fixed-top {
+        box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+        /*height: 100px;*/
+        padding: 10px 0 50px 0;
+    }
+    .navbar-nav {
+        padding-top: 50px;
+        float: left!important;
+        margin: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav.navbar.navbar-default.navbar-fixed-top .container {
+        background-color: #fff;
+    }
+    a.slash:after {
+        content: ''!important;
+        padding-left: 20px;
     }
  
 }

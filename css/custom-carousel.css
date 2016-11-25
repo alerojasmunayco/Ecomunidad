@@ -1,0 +1,57 @@
+#carouselblog .carousel,
+#carouselblog .item,
+#carouselblog .active {
+    height: 100%;
+}
+#carouselblog .carousel-inner {
+    height: 100%;
+}
+#carouselblog .carousel-control .glyphicon-chevron-left, #carouselblog .carousel-control .glyphicon-chevron-right, #carouselblog .carousel-control .icon-next, #carouselblog .carousel-control .icon-prev {
+    position: absolute;
+    top: 40%;
+}
+#carouselblog .carousel-control .glyphicon-chevron-left,#carouselblog  .carousel-control .glyphicon-chevron-right,  #carouselblog .carousel-control .icon-next, #carouselblog .carousel-control .icon-prev {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: -10px;
+    font-size: 80px;
+}
+#carouselblog .carousel-line {
+    overflow: hidden;
+}
+
+#carouselblog .carousel-line {
+    position: relative;
+}
+
+#carouselblog .carousel-large-line::before,
+#carouselblog .carousel-large-line::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#carouselblog .l-arrow, .r-arrow {
+    padding: 10% 3%;
+}
+#carouselblog ul.list-logo.carousel-large-line.carousel-large-line {
+    margin: 20px 0;
+}
+
+#carouselblog .l-arrow a, .r-arrow a {
+    color: #d3d3d3 !important;
+}
+#carouselblog .carousel-large-line {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#carouselblog .box-customize {
+    color: #67666a;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 450px;
+}
